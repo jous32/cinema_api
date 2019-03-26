@@ -4,6 +4,11 @@ class FunctionsController < ApplicationController
   # GET /functions
   def index
     @functions = Function.search(params)
+    if(@functions.to_a.size == 0)
+      function = Function.new(displayed_at: Date.strptime(params[:date_filter], "%Y-%m-%d"),movie_id: params[:movie_id])
+      function.save!
+      @functions = Function.search(params)
+    end
     render json: @functions
   end
 
