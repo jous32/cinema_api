@@ -2,7 +2,10 @@ Booking.create!([
   {person_id: 1, function_id: 1},
   {person_id: 1, function_id: 1},
   {person_id: 1, function_id: 1},
-  {person_id: 1, function_id: 1}
+  {person_id: 1, function_id: 1},
+  {person_id: 2, function_id: 8},
+  {person_id: 2, function_id: 9},
+  {person_id: 2, function_id: 10}
 ])
 Function.create!([
   {displayed_at: "2019-01-01", movie_id: 1},
@@ -10,14 +13,56 @@ Function.create!([
   {displayed_at: "2019-01-03", movie_id: 1},
   {displayed_at: "2019-01-04", movie_id: 2},
   {displayed_at: "2019-01-05", movie_id: 2},
-  {displayed_at: "2019-01-06", movie_id: 3}
+  {displayed_at: "2019-01-06", movie_id: 3},
+  {displayed_at: "2019-01-01", movie_id: 2},
+  {displayed_at: "2019-03-22", movie_id: 2},
+  {displayed_at: "2019-03-16", movie_id: 2},
+  {displayed_at: "2019-03-09", movie_id: 2}
 ])
 Movie.create!([
-  {name: "Movie 1", description: "A movie of terror", image_url: "http://www...."},
-  {name: "Movie 2", description: "A thriller movie", image_url: "http://www...."},
-  {name: "Movie 3", description: "A romance movie", image_url: "http://www...."}
+  {name: "Yudy", description: "asdaDescrasd", image_url: "https://media.istockphoto.com/photos/hippie-young-woman-portrait-in-the-city-picture-id1009581216"},
+  {name: "Movie 2", description: "A thriller movie", image_url: "https://m.media-amazon.com/images/M/MV5BMjI3NjY0NjU1M15BMl5BanBnXkFtZTgwNDA0ODU3NjM@._V1_SX1777_CR0,0,1777,999_AL_.jpg"},
+  {name: "Movie 3", description: "A romance movie", image_url: "https://media.istockphoto.com/photos/portrait-of-a-young-woman-in-the-city-picture-id1010619100"},
+  {name: "Firearrow", description: "Descr", image_url: "https://media.istockphoto.com/photos/young-friends-portrait-picture-id1009626188"},
+  {name: "Adri", description: "", image_url: "https://cdn4.buysellads.net/uu/1/41629/1545949329-squarespace-logo-stacked-black.png"}
 ])
 Person.create!([
   {name: "Peter", email: "peter@email.com", national_id: "1039"},
-  {name: "Ana", email: "ana@email.com", national_id: "1038"}
+  {name: "Ana", email: "ana@email.com", national_id: "1038"},
+  {name: "Firearrow", email: "Descr", national_id: "2"},
+  {name: "jose", email: "jose@", national_id: "6"},
+  {name: "Firearrow", email: "asdaDescrasddf", national_id: "7"},
+  {name: "Firearrow", email: "8", national_id: "8"},
+  {name: "9", email: "9", national_id: "9"},
+  {name: "10", email: "10", national_id: "10"},
+  {name: "11", email: "11", national_id: "11"},
+  {name: "13", email: "13", national_id: "13"},
+  {name: "14", email: "14", national_id: "14"},
+  {name: "17", email: "17", national_id: "17"},
+  {name: "18", email: "18", national_id: "18"},
+  {name: "20", email: "20", national_id: "20"},
+  {name: "22", email: "22", national_id: "22"},
+  {name: "25", email: "25", national_id: "25"},
+  {name: "26", email: "26", national_id: "26"},
+  {name: "30", email: "30", national_id: "30"},
+  {name: "32", email: "32", national_id: "32"},
+  {name: "40", email: "40", national_id: "40"},
+  {name: "50", email: "50", national_id: "50"},
+  {name: "51", email: "51", national_id: "51"},
+  {name: "54", email: "54", national_id: "54"},
+  {name: "55", email: "55", national_id: "55"},
+  {name: "56", email: "56", national_id: "56"},
+  {name: "58", email: "58", national_id: "58"},
+  {name: "100", email: "100", national_id: "100"},
+  {name: "101", email: "101", national_id: "101"},
+  {name: "102", email: "102", national_id: "102"},
+  {name: "104", email: "104", national_id: "104"},
+  {name: "111", email: "111", national_id: "111"},
+  {name: "a", email: "a", national_id: "a"},
+  {name: "d", email: "f", national_id: "f"},
+  {name: "ll", email: "ll", national_id: "ll"},
+  {name: "ff", email: "ff", national_id: "ff"},
+  {name: "sd", email: "asd", national_id: "sd"},
+  {name: "911", email: "911", national_id: "911"},
+  {name: "912", email: "912", national_id: "912"}
 ])
